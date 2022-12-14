@@ -119,7 +119,7 @@
             <Property name="useNullLayout" type="boolean" value="false"/>
           </Layout>
           <SubComponents>
-            <Container class="components.PanelRound" name="panelRound1">
+            <Container class="componentAdmin.PanelRound" name="panelRound1">
               <Properties>
                 <Property name="roundBottomLeft" type="int" value="20"/>
                 <Property name="roundBottomRight" type="int" value="20"/>

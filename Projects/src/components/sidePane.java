@@ -98,7 +98,7 @@ public class sidePane extends javax.swing.JPanel {
         sidePane = new javax.swing.JPanel();
         jPanel4 = new javax.swing.JPanel();
         topSidePane = new javax.swing.JPanel();
-        panelRound1 = new components.PanelRound();
+        panelRound1 = new componentAdmin.PanelRound();
         dooWai = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         sp2 = new javax.swing.JPanel();
@@ -322,7 +322,7 @@ public class sidePane extends javax.swing.JPanel {
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JScrollPane jScrollPane2;
-    private components.PanelRound panelRound1;
+    private componentAdmin.PanelRound panelRound1;
     private javax.swing.JButton romanticButton;
     private javax.swing.JList<String> searchList;
     private javax.swing.JPanel sidePane;
