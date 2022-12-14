@@ -51,7 +51,7 @@ public class TableScrollPane extends javax.swing.JPanel {
             }
         ) {
             boolean[] canEdit = new boolean [] {
-                true, true, true, true, false
+                true, true, true, false, false
             };
 
             public boolean isCellEditable(int rowIndex, int columnIndex) {

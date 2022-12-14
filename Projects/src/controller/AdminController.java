@@ -47,8 +47,8 @@ public class AdminController {
         adminBody.setLayout(new BorderLayout());
 //        adminBody.add(adOne);
 //        adminBody.add(adTwo);
-//        adminBody.add(adThree);
-        adminBody.add(adFour);
+        adminBody.add(adThree);
+//        adminBody.add(adFour);
 
         
         adminFrame.setLayout(new BorderLayout());

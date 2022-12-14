@@ -4,8 +4,16 @@
  */
 package view;
 
+import componentAdmin.AdminBut1;
+import componentAdmin.AdminBut2;
+import componentAdmin.Card2;
+import componentAdmin.Card3;
+import componentAdmin.TableScrollPane;
+import componentAdmin.*;
+import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
+import javax.swing.JPanel;
 
 /**
  *
@@ -16,17 +24,96 @@ public class AdThree extends javax.swing.JPanel {
     /**
      * Creates new form AdThree
      */
+    private adThreeBtn1 adThreeBtn1;
+    private adThreeBtn2 adThreeBtn2;
     public AdThree() {
         initComponents();
+        
+        adThreeBtn1 = new adThreeBtn1();
+        adThreeBtn2 = new adThreeBtn2();
         
         adminBut21.getPanelRound1().setBackground(new Color(241,241,241));
         adminBut21.getjLabel1().setText("ชื่อการ์ตูน");
                 
-        adminBut12.getPanelRound1().setBackground(new Color(247,207,81));
-        adminBut12.getjLabel1().setText("Edit Details");
         
         adminBut11.getPanelRound1().setBackground(new Color(247,207,81));
         adminBut11.getjLabel1().setText("Add chapter");
+        
+        jPanel4.setLayout(new BorderLayout());
+//        jPanel4.add(adThreeBtn1);
+        jPanel4.add(adThreeBtn2);
+    }
+
+    public AdminBut1 getAdminBut11() {
+        return adminBut11;
+    }
+
+    public void setAdminBut11(AdminBut1 adminBut11) {
+        this.adminBut11 = adminBut11;
+    }
+
+    public AdminBut2 getAdminBut21() {
+        return adminBut21;
+    }
+
+    public void setAdminBut21(AdminBut2 adminBut21) {
+        this.adminBut21 = adminBut21;
+    }
+
+    public Card2 getCard22() {
+        return card22;
+    }
+
+    public void setCard22(Card2 card22) {
+        this.card22 = card22;
+    }
+
+    public Card3 getCard31() {
+        return card31;
+    }
+
+    public void setCard31(Card3 card31) {
+        this.card31 = card31;
+    }
+
+    public JPanel getjPanel1() {
+        return jPanel1;
+    }
+
+    public void setjPanel1(JPanel jPanel1) {
+        this.jPanel1 = jPanel1;
+    }
+
+    public JPanel getjPanel2() {
+        return jPanel2;
+    }
+
+    public void setjPanel2(JPanel jPanel2) {
+        this.jPanel2 = jPanel2;
+    }
+
+    public JPanel getjPanel3() {
+        return jPanel3;
+    }
+
+    public void setjPanel3(JPanel jPanel3) {
+        this.jPanel3 = jPanel3;
+    }
+
+    public JPanel getjPanel4() {
+        return jPanel4;
+    }
+
+    public void setjPanel4(JPanel jPanel4) {
+        this.jPanel4 = jPanel4;
+    }
+
+    public TableScrollPane getTableScrollPane1() {
+        return tableScrollPane1;
+    }
+
+    public void setTableScrollPane1(TableScrollPane tableScrollPane1) {
+        this.tableScrollPane1 = tableScrollPane1;
     }
 
     /**
@@ -39,8 +126,8 @@ public class AdThree extends javax.swing.JPanel {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        adminBut12 = new componentAdmin.AdminBut1();
         adminBut21 = new componentAdmin.AdminBut2();
+        jPanel4 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         card22 = new componentAdmin.Card2();
         card31 = new componentAdmin.Card3();
@@ -56,7 +143,19 @@ public class AdThree extends javax.swing.JPanel {
         jPanel1.setSize(new java.awt.Dimension(951, 84));
 
         adminBut21.setMinimumSize(new java.awt.Dimension(250, 40));
-        adminBut21.setPreferredSize(new java.awt.Dimension(250, 40));
+
+        jPanel4.setBackground(new java.awt.Color(255, 255, 204));
+
+        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
+        jPanel4.setLayout(jPanel4Layout);
+        jPanel4Layout.setHorizontalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 633, Short.MAX_VALUE)
+        );
+        jPanel4Layout.setVerticalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 84, Short.MAX_VALUE)
+        );
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -65,18 +164,19 @@ public class AdThree extends javax.swing.JPanel {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addGap(40, 40, 40)
                 .addComponent(adminBut21, javax.swing.GroupLayout.PREFERRED_SIZE, 220, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 511, Short.MAX_VALUE)
-                .addComponent(adminBut12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGap(40, 40, 40))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(22, 22, 22)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(adminBut21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(adminBut12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(22, Short.MAX_VALUE))
+                .addComponent(adminBut21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
@@ -103,8 +203,6 @@ public class AdThree extends javax.swing.JPanel {
         );
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
-
-        tableScrollPane1.setPreferredSize(new java.awt.Dimension(871, 200));
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -133,13 +231,11 @@ public class AdThree extends javax.swing.JPanel {
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
             .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
-                .addGap(0, 0, 0)
-                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -156,13 +252,13 @@ public class AdThree extends javax.swing.JPanel {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private componentAdmin.AdminBut1 adminBut11;
-    private componentAdmin.AdminBut1 adminBut12;
     private componentAdmin.AdminBut2 adminBut21;
     private componentAdmin.Card2 card22;
     private componentAdmin.Card3 card31;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
     private componentAdmin.TableScrollPane tableScrollPane1;
     // End of variables declaration//GEN-END:variables
 }

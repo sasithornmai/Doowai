@@ -23,6 +23,8 @@ public class MainController {
     private topPane topPanel;
     private topPaneRead topRead;
     private ReadCartoon ReadCar;
+    private ReadOne readOne;
+    private ReadMain readMain;
 //    private AdminLayout adminLayout;
 //    private AdminController adminCon;
     public MainController(){
@@ -32,6 +34,8 @@ public class MainController {
         topPanel = new topPane();
         topRead = new topPaneRead();
         ReadCar = new ReadCartoon();
+        readOne = new ReadOne();
+        readMain = new ReadMain();
 //        contentPanel = new CategoryScrollPane();
         
         
@@ -42,10 +46,10 @@ public class MainController {
         mainLayout.getNavPanel().add(navPanel);
         
         mainLayout.getTopPanel().setLayout(new BorderLayout());
-        mainLayout.getTopPanel().add(topRead);
+        mainLayout.getTopPanel().add(topPanel);
         
         mainLayout.getBodyPanel().setLayout(new BorderLayout());
-        mainLayout.getBodyPanel().add(ReadCar);
+        mainLayout.getBodyPanel().add(readMain);
         mainFrame.setVisible(true);
         
 //        mainLayout.getBodyPanel().removeAll();

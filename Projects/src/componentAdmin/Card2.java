@@ -4,6 +4,8 @@
  */
 package componentAdmin;
 
+import javax.swing.JLabel;
+
 /**
  *
  * @author sasimai
@@ -15,6 +17,22 @@ public class Card2 extends javax.swing.JPanel {
      */
     public Card2() {
         initComponents();
+    }
+
+    public JLabel getjLabel1() {
+        return jLabel1;
+    }
+
+    public void setjLabel1(JLabel jLabel1) {
+        this.jLabel1 = jLabel1;
+    }
+
+    public PanelRound getPanelRound1() {
+        return panelRound1;
+    }
+
+    public void setPanelRound1(PanelRound panelRound1) {
+        this.panelRound1 = panelRound1;
     }
 
     /**
