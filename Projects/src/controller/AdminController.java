@@ -20,6 +20,7 @@ public class AdminController {
     private AdOne adOne;
     private AdTwo adTwo;
     private AdThree adThree;
+    private AdFour adFour;
     
     private adsidePane adSide;
     private adtopPane adTop;
@@ -30,6 +31,7 @@ public class AdminController {
         adOne = new AdOne();
         adTwo = new AdTwo();
         adThree = new AdThree();
+        adFour = new AdFour();
         adSide = new adsidePane();
         adTop = new adtopPane();
         
@@ -45,7 +47,9 @@ public class AdminController {
         adminBody.setLayout(new BorderLayout());
 //        adminBody.add(adOne);
 //        adminBody.add(adTwo);
-        adminBody.add(adThree);
+//        adminBody.add(adThree);
+        adminBody.add(adFour);
+
         
         adminFrame.setLayout(new BorderLayout());
         adminFrame.add(adminLayout);
