@@ -7,10 +7,10 @@ public class CategoryScrollPane extends javax.swing.JPanel {
 
     public CategoryScrollPane() {
         initComponents();
-        Category []cat = {new Category(), new Category(), new Category(), 
-            new Category(), new Category(), new Category(), new Category(), new Category(), new Category(), 
-            new Category(), new Category(), new Category(), new Category(), 
-            new Category(), new Category(), new Category(), new Category(), new Category()};
+        Card []cat = {new Card(), new Card(), new Card(), 
+            new Card(), new Card(), new Card(), new Card(), new Card(), new Card(), 
+            new Card(), new Card(), new Card(), new Card(), 
+            new Card(), new Card(), new Card(), new Card(), new Card()};
         GridBagConstraints gbc = new GridBagConstraints();
         gbc.insets = new Insets(15, 15, 15, 15);
         int x = 0;
@@ -35,8 +35,6 @@ public class CategoryScrollPane extends javax.swing.JPanel {
 
         scrollPane1 = new java.awt.ScrollPane();
         CatPane = new javax.swing.JPanel();
-        category1 = new componentAdmin.Category();
-        category2 = new componentAdmin.Category();
 
         setBackground(new java.awt.Color(255, 255, 255));
         setPreferredSize(new java.awt.Dimension(1194, 834));
@@ -60,9 +58,6 @@ public class CategoryScrollPane extends javax.swing.JPanel {
         java.awt.GridBagLayout jPanel1Layout = new java.awt.GridBagLayout();
         jPanel1Layout.columnWidths = new int[] {4};
         CatPane.setLayout(jPanel1Layout);
-        CatPane.add(category1, new java.awt.GridBagConstraints());
-        CatPane.add(category2, new java.awt.GridBagConstraints());
-
         scrollPane1.add(CatPane);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -96,8 +91,6 @@ public class CategoryScrollPane extends javax.swing.JPanel {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel CatPane;
-    private componentAdmin.Category category1;
-    private componentAdmin.Category category2;
     private java.awt.ScrollPane scrollPane1;
     // End of variables declaration//GEN-END:variables
 }

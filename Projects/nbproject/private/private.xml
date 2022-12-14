@@ -3,26 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/sasimai/NetBeansProjects/Doowaii/src/AddCategory.java</file>
-            <file>file:/Users/sasimai/NetBeansProjects/Doowaii/src/RoundedButton.java</file>
-            <file>file:/Users/sasimai/NetBeansProjects/Doowaii/src/components/topPane.java</file>
-            <file>file:/Users/sasimai/NetBeansProjects/Doowaii/src/frame/AdminFrame.java</file>
-            <file>file:/Users/sasimai/NetBeansProjects/Doowaii/src/Main.java</file>
-            <file>file:/Users/sasimai/NetBeansProjects/Doowaii/src/MainPage.java</file>
-            <file>file:/Users/sasimai/NetBeansProjects/Doowaii/src/view/Login.java</file>
-            <file>file:/Users/sasimai/NetBeansProjects/Doowaii/src/controller/MainController.java</file>
-            <file>file:/Users/sasimai/NetBeansProjects/Doowaii/src/frame/Mainframe.java</file>
-            <file>file:/Users/sasimai/NetBeansProjects/Doowaii/src/layout/MainLayout.java</file>
             <file>file:/Users/sasimai/NetBeansProjects/Doowaii/src/controller/AdminController.java</file>
-            <file>file:/Users/sasimai/NetBeansProjects/Doowaii/src/buttonAdmin/PanelRound.java</file>
-            <file>file:/Users/sasimai/NetBeansProjects/Doowaii/src/buttonAdmin/AdminBut1.java</file>
-            <file>file:/Users/sasimai/NetBeansProjects/Doowaii/src/Read2.java</file>
+            <file>file:/Users/sasimai/NetBeansProjects/Doowaii/src/components/adsidePane.java</file>
+            <file>file:/Users/sasimai/NetBeansProjects/Doowaii/src/frame/AdminFrame.java</file>
             <file>file:/Users/sasimai/NetBeansProjects/Doowaii/src/layout/AdminLayout.java</file>
-            <file>file:/Users/sasimai/NetBeansProjects/Doowaii/src/AddCartoon.java</file>
-            <file>file:/Users/sasimai/NetBeansProjects/Doowaii/src/components/AdOne.java</file>
-            <file>file:/Users/sasimai/NetBeansProjects/Doowaii/src/components/sidePane.java</file>
-            <file>file:/Users/sasimai/NetBeansProjects/Doowaii/src/components/Category.java</file>
-            <file>file:/Users/sasimai/NetBeansProjects/Doowaii/src/components/CategoryScrollPane.java</file>
+            <file>file:/Users/sasimai/NetBeansProjects/Doowaii/src/componentAdmin/CategoryScrollPane.java</file>
+            <file>file:/Users/sasimai/NetBeansProjects/Doowaii/src/Main.java</file>
+            <file>file:/Users/sasimai/NetBeansProjects/Doowaii/src/componentAdmin/CatroonScrollPane.java</file>
+            <file>file:/Users/sasimai/NetBeansProjects/Doowaii/src/componentAdmin/AdTopBut.java</file>
+            <file>file:/Users/sasimai/NetBeansProjects/Doowaii/src/view/AdOne.java</file>
+            <file>file:/Users/sasimai/NetBeansProjects/Doowaii/src/view/AdTwo.java</file>
+            <file>file:/Users/sasimai/NetBeansProjects/Doowaii/src/components/adtopPane.java</file>
         </group>
     </open-files>
 </project-private>

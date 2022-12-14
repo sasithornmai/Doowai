@@ -13,20 +13,26 @@ import frame.*;
 import layout.*;
 import java.awt.*;
 import components.*;
+import view.*;
 
 public class MainController {
     private Mainframe mainFrame;
     private MainLayout mainLayout;
     private sidePane navPanel;
-    private CategoryScrollPane contentPanel;
+//    private CategoryScrollPane contentPanel;
     private topPane topPanel;
-    private AdminLayout adminLayout;
-    private AdminController adminCon;
+    private topPaneRead topRead;
+    private ReadCartoon ReadCar;
+//    private AdminLayout adminLayout;
+//    private AdminController adminCon;
     public MainController(){
         mainFrame = new Mainframe();
         mainLayout = new MainLayout();
         navPanel = new sidePane();
-        contentPanel = new CategoryScrollPane();
+        topPanel = new topPane();
+        topRead = new topPaneRead();
+        ReadCar = new ReadCartoon();
+//        contentPanel = new CategoryScrollPane();
         
         
         mainFrame.setLayout(new BorderLayout());
@@ -36,10 +42,10 @@ public class MainController {
         mainLayout.getNavPanel().add(navPanel);
         
         mainLayout.getTopPanel().setLayout(new BorderLayout());
-        mainLayout.getTopPanel().add(topPanel);
+        mainLayout.getTopPanel().add(topRead);
         
         mainLayout.getBodyPanel().setLayout(new BorderLayout());
-        mainLayout.getBodyPanel().add(adminLayout);
+        mainLayout.getBodyPanel().add(ReadCar);
         mainFrame.setVisible(true);
         
 //        mainLayout.getBodyPanel().removeAll();

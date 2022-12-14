@@ -10,12 +10,12 @@ import javax.swing.JLabel;
  *
  * @author sasimai
  */
-public class Category extends javax.swing.JPanel {
+public class Card extends javax.swing.JPanel {
 
     /**
      * Creates new form Category
      */
-    public Category() {
+    public Card() {
         initComponents();
         
     }
@@ -59,7 +59,7 @@ public class Category extends javax.swing.JPanel {
         jLabel1.setFont(new java.awt.Font("Helvetica Neue", 0, 14)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Romance");
-        panelRound1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-3, 5, 200, 275));
+        panelRound1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 200, 275));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
